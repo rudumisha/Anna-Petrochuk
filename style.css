@@ -1,0 +1,128 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(45deg, #ffefba, #ffffff);
+  color: #333;
+}
+
+header {
+  background-color: #f9f9f9;
+  border-bottom: 2px solid #e0e0e0;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+nav {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: transparent;
+}
+
+a {
+  display: block;
+  margin-bottom: 10px;
+  padding: 15px;
+  width: 160px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 0 5px 5px 0;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.about {
+  background-color: #4caf50;
+}
+
+.blog {
+  background-color: #2196f3;
+}
+
+.proiects {
+  background-color: #f44336;
+}
+
+a:hover {
+  transform: translateX(20px);
+}
+
+main {
+  margin-left: 200px;
+  padding: 60px 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #333;
+}
+
+h2 {
+  font-size: 2em;
+  color: #444;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+.button-container {
+  margin: 20px 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 1.2em;
+  color: white;
+  background-color: #2196f3;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+  background-color: #1976d2;
+  transform: translateY(-5px);
+}
+.testimonials {
+  margin: 40px 0;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.testimonial {
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.testimonial p:last-child {
+  font-weight: bold;
+  color: #555;
+}
